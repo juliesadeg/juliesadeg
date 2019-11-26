@@ -1,6 +1,128 @@
 html {
 font-family: 'Roboto', sans-serif;
 }
+
+header {
+  width: 100vw;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header .header-button {
+  background-color: #4DC3F9;
+  width: 235px;
+  height: 40px;
+  margin: 30px auto;
+  border: 0;
+  border-radius: 6px;
+  color: #ffffff;
+  display: block;
+}
+
+header img {
+  width: 150px;
+  margin: 30px auto;
+  display: block;
+}
+
+.cohort-picture {
+  width: 100vw;
+  height: 410px;
+  background-image: url("../img/squad.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+
+.cohort-picture h1 {
+  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 41px;
+
+}
+
+#bootcamp-program {
+  padding: 0 35px;
+}
+
+.intro-program h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 32px;
+  text-align: center;
+  color: #2D354C;
+}
+
+.intro-program p {
+  font-size: 18px;
+  color: #818693;
+  line-height: 30px;
+}
+
+.card-program {
+  background-color: #f8f8f8;
+  border-radius: 6px;
+  text-align: center;
+  padding: 24px;
+  margin-bottom: 35px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-program .card-time {
+  color: #EC3A35;
+  font-size: 14px;
+
+}
+
+.card-program .card-title {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 28px;
+  line-height: 30px;
+}
+
+.card-program .card-schedule {
+  font-size: 20px;
+  line-height: 32px;
+  color: #818693;
+}
+
 #bootcamp-figures {
-  background-color: #00b4fe;
+  background-color: #4DC3F9;
+  padding: 20px;
+}
+
+h2.figures-title {
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+color: #FFFFFF;
+text-align: center;
+}
+
+.figures-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.figures-wrapper .figures {
+  flex: 0 0 50%;
+  text-align: center;
+  font-size: 90px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.figures-wrapper .figures span {
+  font-size: 20px;
+  display: block;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
 }
